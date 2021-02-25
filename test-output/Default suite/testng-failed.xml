@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="KhanSignInUsingGoogleAccount">
+      <class name="Magento.MagentoDataDrivenInvalidLogin">
         <methods>
-          <include name="signInUsingGoogle"/>
-          <include name="beforeClass"/>
-          <include name="afterClass"/>
+          <include name="MagentoInvalidLogin"/>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
         </methods>
-      </class> <!-- KhanSignInUsingGoogleAccount -->
+      </class> <!-- Magento.MagentoDataDrivenInvalidLogin -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

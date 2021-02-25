@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="55264" started-at="2021-02-23T04:19:46Z" finished-at="2021-02-23T04:20:41Z">
+  <suite name="Default suite" duration-ms="123773" started-at="2021-02-25T17:29:12Z" finished-at="2021-02-25T17:31:16Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="55264" started-at="2021-02-23T04:19:46Z" finished-at="2021-02-23T04:20:41Z">
-      <class name="KhanSignInUsingGoogleAccount">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:KhanSignInUsingGoogleAccount@598067a5]" name="beforeClass" is-config="true" duration-ms="28984" started-at="2021-02-23T04:19:46Z" finished-at="2021-02-23T04:20:15Z">
+    <test name="Default test" duration-ms="123773" started-at="2021-02-25T17:29:12Z" finished-at="2021-02-25T17:31:16Z">
+      <class name="Magento.MagentoDataDrivenInvalidLogin">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:Magento.MagentoDataDrivenInvalidLogin@7b49cea0]" name="beforeTest" is-config="true" duration-ms="43664" started-at="2021-02-25T17:29:12Z" finished-at="2021-02-25T17:29:56Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="signInUsingGoogle()[pri:0, instance:KhanSignInUsingGoogleAccount@598067a5]" name="signInUsingGoogle" duration-ms="26219" started-at="2021-02-23T04:20:15Z" finished-at="2021-02-23T04:20:41Z">
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="MagentoInvalidLogin()[pri:0, instance:Magento.MagentoDataDrivenInvalidLogin@7b49cea0]" name="MagentoInvalidLogin" duration-ms="78647" started-at="2021-02-25T17:29:56Z" finished-at="2021-02-25T17:31:15Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- signInUsingGoogle -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:KhanSignInUsingGoogleAccount@598067a5]" name="afterClass" is-config="true" duration-ms="1" started-at="2021-02-23T04:20:41Z" finished-at="2021-02-23T04:20:41Z">
+        </test-method> <!-- MagentoInvalidLogin -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:Magento.MagentoDataDrivenInvalidLogin@7b49cea0]" name="afterTest" is-config="true" duration-ms="1430" started-at="2021-02-25T17:31:15Z" finished-at="2021-02-25T17:31:16Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- afterClass -->
-      </class> <!-- KhanSignInUsingGoogleAccount -->
+        </test-method> <!-- afterTest -->
+      </class> <!-- Magento.MagentoDataDrivenInvalidLogin -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
