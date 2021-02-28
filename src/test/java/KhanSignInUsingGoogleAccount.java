@@ -26,7 +26,7 @@ public class KhanSignInUsingGoogleAccount {
 	  /*driver.findElement(MobileBy.className("android.view.View")).sendKeys("gunjit878@gmail.com");
 	  driver.hideKeyboard();
 	  driver.findElement(MobileBy.AndroidUIAutomator("UiSelector().text(\"NEXT\")")).click();
-	  driver.findElement(MobileBy.className("android.view.View")).sendKeys("dummy@1234");
+	  driver.findElement(MobileBy.className("android.view.View")).sendKeys("Dummy@1234");
 	  driver.hideKeyboard();
 	  driver.findElement(MobileBy.AndroidUIAutomator("UiSelector().text(\"NEXT\")")).click();
 	  driver.findElement(MobileBy.AndroidUIAutomator("UiSelector().text(\"I agree\")")).click();

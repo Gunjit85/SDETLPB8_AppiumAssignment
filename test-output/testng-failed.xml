@@ -5,7 +5,7 @@
     <classes>
       <class name="Magento.MagentoDataDrivenInvalidLogin">
         <methods>
-          <include name="MagentoInvalidLogin"/>
+          <include name="MagentoInvalidLoginCredentials"/>
           <include name="beforeTest"/>
           <include name="afterTest"/>
         </methods>

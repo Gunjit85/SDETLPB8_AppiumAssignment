@@ -33,7 +33,7 @@ import org.testng.annotations.AfterTest;
 public class MagentoDataDrivenInvalidLogin {
 	public AndroidDriver driver;
   @Test
-  public void MagentoInvalidLogin() throws IOException {
+  public void MagentoInvalidLoginCredentials() throws IOException {
 	  driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 	  driver.findElementByXPath("//header/button[1]").click();
 	  driver.findElementByXPath("//span[contains(text(),'My Account')]").click();
